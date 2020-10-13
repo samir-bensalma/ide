@@ -1,0 +1,86 @@
+body{display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #22a5f1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+header{height: 100px;
+    background-color: #2c2c32;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+#logo{margin-top: 10px;}
+
+nav{margin-top: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+        }
+
+button{background-color: transparent;
+    border: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin-right: 15px
+            }
+
+button:hover{color:#2c2c32 ;
+            background-color: #22a5f1;
+            border-radius: 10px;
+            padding: 5px;}
+
+#partie1, #partie2, #partie3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.partie2txt{width: 350px;}
+
+#partie1 {align-items: center;}
+
+#partie2 {align-items: flex-end;}
+
+#partie3 {margin-top: 1%;}
+
+#button{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;}
+
+#button1{margin: 10px;
+    padding: 0 40px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    height: 45px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #ffffff;
+    background: #2c2c32;
+    text-shadow: 1px 1px 1px rgb(253, 253, 253);
+    border-radius: 30px;
+    transition: all 0.15s ease;
+    cursor: pointer}
+
+#button1:hover{
+    box-shadow: 1px 1px 5px 5px rgb(253, 253, 253), inset 0px 0px 2px#ffffff;
+}
+
+#textfooter{color: #ffffff;}
+
+footer{margin-top: 2%;
+	text-align: center;
+    background-color: #2c2c32;
+}
